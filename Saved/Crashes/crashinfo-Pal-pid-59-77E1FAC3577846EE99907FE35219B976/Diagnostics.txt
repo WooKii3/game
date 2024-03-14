@@ -1,0 +1,32 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 5.15.0-1049-gcp (network name: 02751ef47ced)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000110"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+PalServer-Linux-Test!UPalGliderComponent::ApplyGliderParameter(TSubclassOf<APalGliderObject>) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalGliderComponent.cpp:299]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller<UPalGliderComponent::LoadCurrentGlider()::$_3, void (TSubclassOf<APalGliderObject>)>::Call(void*, TSubclassOf<APalGliderObject>&) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller<TSharedPtr<FStreamableHandle, (ESPMode)1> UPalAssetStreamableManager::RequestAsyncLoad<APalGliderObject>(TSoftClassPtr<APalGliderObject>, TFunction<void (TSubclassOf<APalGliderObject>)>, int, bool, bool)::'lambda'(UObject*), void (UObject*)>::Call(void*, UObject*&) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!FPalAssetLoadedSingle::OnInvokeLoadedDelegate() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.h:45]
+PalServer-Linux-Test!UPalAssetStreamableManager::Tick(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.cpp:122]
+PalServer-Linux-Test!FTickableGameObject::TickObjects(UWorld*, int, bool, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Tickable.cpp:150]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1606]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!__libc_start_main(+0xe9)
+PalServer-Linux-Test!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

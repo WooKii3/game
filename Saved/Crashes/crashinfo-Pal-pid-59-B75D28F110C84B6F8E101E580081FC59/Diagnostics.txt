@@ -1,0 +1,19 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 5.15.0-1049-gcp (network name: 02751ef47ced)
+Running 2 x86_64 processors (4 logical cores)
+Exception was ""
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

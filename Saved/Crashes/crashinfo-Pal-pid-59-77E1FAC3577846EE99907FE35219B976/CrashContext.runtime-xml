@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>F3E9C528F5F040649498CE25A2AFA18E</ExecutionGuid>
+		<CrashGUID>UECC-Linux-290CFF5376DA4443B87CE5A9EC3A7A17_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>59</ProcessId>
+		<SecondsSinceStart>1683</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Test</ExecutableName>
+		<BuildConfiguration>Test</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -port=8211 -queryport=27015</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US_POSIX</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Test</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/palworld/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/palworld/</RootDir>
+		<MachineId>-000003E8</MachineId>
+		<LoginId>-000003e8</LoginId>
+		<HostName>02751ef47ced</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU @ 2.00GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Debian GNU/Linux 11 (bullseye)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>5.15.0-1049-gcp</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>15705870336</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>15</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>7819489280</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>7432581120</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>8041283584</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>11885547520</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>12842405888</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>PalServer-Linux-Test!UPalGliderComponent::ApplyGliderParameter(TSubclassOf&lt;APalGliderObject&gt;) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/Component/PalGliderComponent.cpp:299]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;UPalGliderComponent::LoadCurrentGlider()::$_3, void (TSubclassOf&lt;APalGliderObject&gt;)&gt;::Call(void*, TSubclassOf&lt;APalGliderObject&gt;&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!UE::Core::Private::Function::TFunctionRefCaller&lt;TSharedPtr&lt;FStreamableHandle, (ESPMode)1&gt; UPalAssetStreamableManager::RequestAsyncLoad&lt;APalGliderObject&gt;(TSoftClassPtr&lt;APalGliderObject&gt;, TFunction&lt;void (TSubclassOf&lt;APalGliderObject&gt;)&gt;, int, bool, bool)::&apos;lambda&apos;(UObject*), void (UObject*)&gt;::Call(void*, UObject*&amp;) [C:/works/Pal-UE-EngineBinary/Engine/Source/Runtime/Core/Public/Templates/Function.h:474]
+PalServer-Linux-Test!FPalAssetLoadedSingle::OnInvokeLoadedDelegate() [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.h:45]
+PalServer-Linux-Test!UPalAssetStreamableManager::Tick(float) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalAssetStreamableManager.cpp:122]
+PalServer-Linux-Test!FTickableGameObject::TickObjects(UWorld*, int, bool, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/Tickable.cpp:150]
+PalServer-Linux-Test!UWorld::Tick(ELevelTick, float) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/LevelTick.cpp:1606]
+PalServer-Linux-Test!UGameEngine::Tick(float, bool) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Engine/Private/GameEngine.cpp:1775]
+PalServer-Linux-Test!FEngineLoop::Tick() [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5363]
+PalServer-Linux-Test!GuardedMain(char16_t const*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+PalServer-Linux-Test!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [C:/works/Pal-UE-EngineSource/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!__libc_start_main(+0xe9)
+PalServer-Linux-Test!_start()
+</CallStack>
+		<PCallStack>PalServer-Linux-Test 0x0000000000200000 + 64d89f4 PalServer-Linux-Test 0x0000000000200000 + 64fb0a3 PalServer-Linux-Test 0x0000000000200000 + 64faf3f PalServer-Linux-Test 0x0000000000200000 + 65a6a39 PalServer-Linux-Test 0x0000000000200000 + 657f7bf PalServer-Linux-Test 0x0000000000200000 + a05b7ba PalServer-Linux-Test 0x0000000000200000 + 9b33ee4 PalServer-Linux-Test 0x0000000000200000 + 996c764 PalServer-Linux-Test 0x0000000000200000 + 3d287be PalServer-Linux-Test 0x0000000000200000 + 3d298ca PalServer-Linux-Test 0x0000000000200000 + a760818 libc.so 0x00007f76ba922000 + 23d0a PalServer-Linux-Test 0x0000000000200000 + 3d27029</PCallStack>
+		<PCallStackHash>0505B152E6F228EF3790F5E442A5E314A9D6EEF2</PCallStackHash>
+		<TimeOfCrash>638423460116750000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Debian GNU/Linux 11 (bullseye) 5.15.0-1049-gcp 64b]</PlatformFullName>
+		<CPUBrand>Intel(R) Xeon(R) CPU @ 2.00GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>11</CrashSignal>
+		<CrashSignalName>Segmentation fault</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>3</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.3.0&quot;, &quot;callstackhash&quot;: &quot;9699E46BE9D013A70E06585ADCB1FD162A11EEB7&quot;,&quot;revision&quot;: &quot;47183&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;players&quot;: &quot;2&quot;, &quot;session_id&quot;: &quot;steam_null_1706747529&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
